@@ -1,0 +1,62 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/chablin/to7for/iosPlugin/sideNote/.theos/obj/debug/arm64/SideNote.dylib'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: __logosLocalInit, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x48 }
+  - { offset: 0x45, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$SpringBoard$applicationDidFinishLaunching$', symObjAddr: 0xFF0, symBinAddr: 0x10E00, symSize: 0x0 }
+  - { offset: 0xBD, size: 0x8, addend: 0x0, symName: __logosLocalInit, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x48 }
+  - { offset: 0x12C, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SpringBoard$applicationDidFinishLaunching$', symObjAddr: 0x48, symBinAddr: 0x4048, symSize: 0xBC }
+  - { offset: 0x180, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$SpringBoard$applicationDidFinishLaunching$_block_invoke', symObjAddr: 0x104, symBinAddr: 0x4104, symSize: 0xEC }
+  - { offset: 0x363, size: 0x8, addend: 0x0, symName: '+[SideNotePanel sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x41F0, symSize: 0x7C }
+  - { offset: 0x370, size: 0x8, addend: 0x0, symName: '+[SideNotePanel sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x41F0, symSize: 0x7C }
+  - { offset: 0x399, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x14FD0, symBinAddr: 0x10E08, symSize: 0x0 }
+  - { offset: 0x3AE, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x14FD8, symBinAddr: 0x10E10, symSize: 0x0 }
+  - { offset: 0x466F, size: 0x8, addend: 0x0, symName: '___31+[SideNotePanel sharedInstance]_block_invoke', symObjAddr: 0x7C, symBinAddr: 0x426C, symSize: 0x4C }
+  - { offset: 0x4697, size: 0x8, addend: 0x0, symName: '-[SideNotePanel setup]', symObjAddr: 0xC8, symBinAddr: 0x42B8, symSize: 0x50 }
+  - { offset: 0x46C9, size: 0x8, addend: 0x0, symName: '-[SideNotePanel createOverlayWindow]', symObjAddr: 0x118, symBinAddr: 0x4308, symSize: 0x2DC }
+  - { offset: 0x4709, size: 0x8, addend: 0x0, symName: '-[SideNotePanel createTab]', symObjAddr: 0x3F4, symBinAddr: 0x45E4, symSize: 0x52C }
+  - { offset: 0x4776, size: 0x8, addend: 0x0, symName: _CGRectMake, symObjAddr: 0x920, symBinAddr: 0x4B10, symSize: 0x4C }
+  - { offset: 0x47DC, size: 0x8, addend: 0x0, symName: '-[SideNotePanel tabTapped:]', symObjAddr: 0x96C, symBinAddr: 0x4B5C, symSize: 0x74 }
+  - { offset: 0x481C, size: 0x8, addend: 0x0, symName: '-[SideNotePanel tabDragged:]', symObjAddr: 0x9E0, symBinAddr: 0x4BD0, symSize: 0x364 }
+  - { offset: 0x491B, size: 0x8, addend: 0x0, symName: '-[SideNotePanel createPanel]', symObjAddr: 0xD44, symBinAddr: 0x4F34, symSize: 0xA8C }
+  - { offset: 0x4997, size: 0x8, addend: 0x0, symName: _CGSizeMake, symObjAddr: 0x17D0, symBinAddr: 0x59C0, symSize: 0x2C }
+  - { offset: 0x49DF, size: 0x8, addend: 0x0, symName: '-[SideNotePanel openPanel]', symObjAddr: 0x17FC, symBinAddr: 0x59EC, symSize: 0x344 }
+  - { offset: 0x4AC2, size: 0x8, addend: 0x0, symName: '___26-[SideNotePanel openPanel]_block_invoke', symObjAddr: 0x1B40, symBinAddr: 0x5D30, symSize: 0x1B8 }
+  - { offset: 0x4B4C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1CF8, symBinAddr: 0x5EE8, symSize: 0x38 }
+  - { offset: 0x4B70, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x1D30, symBinAddr: 0x5F20, symSize: 0x2C }
+  - { offset: 0x4B8C, size: 0x8, addend: 0x0, symName: '-[SideNotePanel closePanel]', symObjAddr: 0x1D5C, symBinAddr: 0x5F4C, symSize: 0x288 }
+  - { offset: 0x4BCC, size: 0x8, addend: 0x0, symName: '___27-[SideNotePanel closePanel]_block_invoke', symObjAddr: 0x1FE4, symBinAddr: 0x61D4, symSize: 0x1B0 }
+  - { offset: 0x4C45, size: 0x8, addend: 0x0, symName: '___27-[SideNotePanel closePanel]_block_invoke.25', symObjAddr: 0x2194, symBinAddr: 0x6384, symSize: 0x78 }
+  - { offset: 0x4C90, size: 0x8, addend: 0x0, symName: '-[SideNotePanel registerKeyboardNotifications]', symObjAddr: 0x220C, symBinAddr: 0x63FC, symSize: 0xC8 }
+  - { offset: 0x4CC2, size: 0x8, addend: 0x0, symName: '-[SideNotePanel keyboardWillShow:]', symObjAddr: 0x22D4, symBinAddr: 0x64C4, symSize: 0x2B0 }
+  - { offset: 0x4D72, size: 0x8, addend: 0x0, symName: '___34-[SideNotePanel keyboardWillShow:]_block_invoke', symObjAddr: 0x2584, symBinAddr: 0x6774, symSize: 0xDC }
+  - { offset: 0x4DE1, size: 0x8, addend: 0x0, symName: '-[SideNotePanel keyboardWillHide:]', symObjAddr: 0x2660, symBinAddr: 0x6850, symSize: 0x1B0 }
+  - { offset: 0x4E42, size: 0x8, addend: 0x0, symName: '___34-[SideNotePanel keyboardWillHide:]_block_invoke', symObjAddr: 0x2810, symBinAddr: 0x6A00, symSize: 0xE0 }
+  - { offset: 0x4EB1, size: 0x8, addend: 0x0, symName: '-[SideNotePanel overlayWindow]', symObjAddr: 0x28F0, symBinAddr: 0x6AE0, symSize: 0x1C }
+  - { offset: 0x4EE7, size: 0x8, addend: 0x0, symName: '-[SideNotePanel setOverlayWindow:]', symObjAddr: 0x290C, symBinAddr: 0x6AFC, symSize: 0x34 }
+  - { offset: 0x4F25, size: 0x8, addend: 0x0, symName: '-[SideNotePanel tabView]', symObjAddr: 0x2940, symBinAddr: 0x6B30, symSize: 0x1C }
+  - { offset: 0x4F5B, size: 0x8, addend: 0x0, symName: '-[SideNotePanel setTabView:]', symObjAddr: 0x295C, symBinAddr: 0x6B4C, symSize: 0x34 }
+  - { offset: 0x4F99, size: 0x8, addend: 0x0, symName: '-[SideNotePanel panelView]', symObjAddr: 0x2990, symBinAddr: 0x6B80, symSize: 0x1C }
+  - { offset: 0x4FCF, size: 0x8, addend: 0x0, symName: '-[SideNotePanel setPanelView:]', symObjAddr: 0x29AC, symBinAddr: 0x6B9C, symSize: 0x34 }
+  - { offset: 0x500D, size: 0x8, addend: 0x0, symName: '-[SideNotePanel textView]', symObjAddr: 0x29E0, symBinAddr: 0x6BD0, symSize: 0x1C }
+  - { offset: 0x5043, size: 0x8, addend: 0x0, symName: '-[SideNotePanel setTextView:]', symObjAddr: 0x29FC, symBinAddr: 0x6BEC, symSize: 0x34 }
+  - { offset: 0x5081, size: 0x8, addend: 0x0, symName: '-[SideNotePanel panelOpen]', symObjAddr: 0x2A30, symBinAddr: 0x6C20, symSize: 0x20 }
+  - { offset: 0x50B7, size: 0x8, addend: 0x0, symName: '-[SideNotePanel setPanelOpen:]', symObjAddr: 0x2A50, symBinAddr: 0x6C40, symSize: 0x28 }
+  - { offset: 0x50F5, size: 0x8, addend: 0x0, symName: '-[SideNotePanel tabCenterY]', symObjAddr: 0x2A78, symBinAddr: 0x6C68, symSize: 0x1C }
+  - { offset: 0x512B, size: 0x8, addend: 0x0, symName: '-[SideNotePanel setTabCenterY:]', symObjAddr: 0x2A94, symBinAddr: 0x6C84, symSize: 0x24 }
+  - { offset: 0x5169, size: 0x8, addend: 0x0, symName: '-[SideNotePanel .cxx_destruct]', symObjAddr: 0x2AB8, symBinAddr: 0x6CA8, symSize: 0x68 }
+  - { offset: 0x60AF, size: 0x8, addend: 0x0, symName: '-[SideNotePassthroughView hitTest:withEvent:]', symObjAddr: 0x0, symBinAddr: 0x6D10, symSize: 0xDC }
+  - { offset: 0x6A8A, size: 0x8, addend: 0x0, symName: '-[SideNotePassthroughView hitTest:withEvent:]', symObjAddr: 0x0, symBinAddr: 0x6D10, symSize: 0xDC }
+  - { offset: 0x6BE1, size: 0x8, addend: 0x0, symName: '-[SideNotePassthroughWindow hitTest:withEvent:]', symObjAddr: 0x0, symBinAddr: 0x6DEC, symSize: 0x1C8 }
+  - { offset: 0x8965, size: 0x8, addend: 0x0, symName: '-[SideNotePassthroughWindow hitTest:withEvent:]', symObjAddr: 0x0, symBinAddr: 0x6DEC, symSize: 0x1C8 }
+  - { offset: 0x8A8A, size: 0x8, addend: 0x0, symName: '+[SideNoteStorage sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6FB4, symSize: 0x7C }
+  - { offset: 0x8AA3, size: 0x8, addend: 0x0, symName: _kStorageDirectory, symObjAddr: 0x470, symBinAddr: 0xC208, symSize: 0x0 }
+  - { offset: 0x8B1B, size: 0x8, addend: 0x0, symName: _kStorageFile, symObjAddr: 0x478, symBinAddr: 0xC210, symSize: 0x0 }
+  - { offset: 0x8B24, size: 0x8, addend: 0x0, symName: '+[SideNoteStorage sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x6FB4, symSize: 0x7C }
+  - { offset: 0x8B4D, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x1A10, symBinAddr: 0x10E18, symSize: 0x0 }
+  - { offset: 0x8B62, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1A18, symBinAddr: 0x10E20, symSize: 0x0 }
+  - { offset: 0x8C7E, size: 0x8, addend: 0x0, symName: '___33+[SideNoteStorage sharedInstance]_block_invoke', symObjAddr: 0x7C, symBinAddr: 0x7030, symSize: 0x4C }
+  - { offset: 0x8CA6, size: 0x8, addend: 0x0, symName: '-[SideNoteStorage init]', symObjAddr: 0xC8, symBinAddr: 0x707C, symSize: 0x110 }
+  - { offset: 0x8CF0, size: 0x8, addend: 0x0, symName: '-[SideNoteStorage loadNote]', symObjAddr: 0x1D8, symBinAddr: 0x718C, symSize: 0x14C }
+  - { offset: 0x8D50, size: 0x8, addend: 0x0, symName: '-[SideNoteStorage saveNote:]', symObjAddr: 0x324, symBinAddr: 0x72D8, symSize: 0x9C }
+...

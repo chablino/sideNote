@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo $THEOS)",
+      "Read(//Users/chablin/theos/bin/**)"
+    ]
+  }
+}

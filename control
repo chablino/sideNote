@@ -1,0 +1,9 @@
+Package: com.chablin.sidenote
+Name: SideNote
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: A floating side note panel for quick note-taking without leaving your current app.
+Maintainer: chablin
+Author: chablin
+Section: Tweaks
+Depends: mobilesubstrate
